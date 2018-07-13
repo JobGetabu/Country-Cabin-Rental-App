@@ -34,12 +34,12 @@
     <TableRow>
 
         <RadioGroup
+            android:id="@+id/ca_radio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_span="2"
             android:orientation="vertical"
-            android:padding="16dp"
-            >
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/ca_radio1"

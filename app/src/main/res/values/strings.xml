@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Country Cabin Rental Tablet App</string>
+
+    <string name="ca1_desc">This cozy, one-bedroom cabin in Wimberley is outfitted with a fully-equipped kitchen, Wi-Fi,
+        a private hot tub, a CD/stereo with an iPod dock, a wood stove, and a Smart TV and DVD player.
+        There is a sleeper sofa in the living room, which means that up to four people can comfortably be accommodated here.</string>
+
+    <string name="ca2_desc">This charming cabin rental near Dallas has everything guests will need during their stay,
+        including a luxurious hot tub. It can sleep four guests but is ideal for a romantic getaway for couples.
+        There are a comfy king-size bed and a 60-inch television with surround sound for some evening entertainment.</string>
 </resources>
