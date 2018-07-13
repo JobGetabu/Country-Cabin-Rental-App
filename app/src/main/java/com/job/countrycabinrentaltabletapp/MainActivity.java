@@ -1,7 +1,7 @@
 package com.job.countrycabinrentaltabletapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -25,6 +25,21 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.btn);
 
 
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                switch (checkedId) {
+                    case R.id.ca_radio1:
+                        // do operations specific to this selection
+                        break;
+                    case R.id.ca_radio2:
+                        // do operations specific to this selection
+                        break;
+                }
+            }
+        });
+    }
+
+    private void init() {
 
     }
 }
